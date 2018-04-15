@@ -5,6 +5,7 @@ import json
 
 app = Flask(__name__)
 
+# $ wget https://raw.githubusercontent.com/emacsmirror/epkgs/master/epkg.sqlite
 # FIXME: The database should be updated periodically
 app.config.from_object(__name__)
 app.config.update(dict(
